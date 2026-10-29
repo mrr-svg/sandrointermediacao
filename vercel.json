@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "sandrointermediacao.vercel.app" }],
+      "destination": "https://sandrointermediacao.com.br/:path*",
+      "permanent": true
+    }
+  ]
+}
